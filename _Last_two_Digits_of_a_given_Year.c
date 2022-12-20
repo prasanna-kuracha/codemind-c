@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int a;
-    scanf("%d",&a);
-    printf("%.2d",a%100);
+    int n;
+    scanf("%d",&n);
+    printf("%0.2d",n%100);
 }
