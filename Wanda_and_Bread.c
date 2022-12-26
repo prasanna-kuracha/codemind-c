@@ -3,8 +3,8 @@ int main()
 {
     float n,m,k;
     scanf("%f%f%f",&n,&m,&k);
-    float s=n/m;
-    if(s<=k)
+    float s=n/k;
+    if(s<=m)
     {
         printf("YES");
     }
