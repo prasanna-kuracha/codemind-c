@@ -1,6 +1,12 @@
 #include<stdio.h>
 int main()
 {
+    int a,b;
+    scanf("%d%d",&a,&b);
+    printf("%d
+%d",b,a);#include<stdio.h>
+int main()
+{
     int n,a[n],i,s=0;
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -15,4 +21,5 @@ int main()
         }
     }
     printf("%d",s);
+}
 }
