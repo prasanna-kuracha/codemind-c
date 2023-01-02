@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int avg,n;
+    int n;
     scanf("%d",&n);
-    avg=(n*(n+1))/2;
-    printf("%d",avg);
+    int su=(n*(n+1))/2;
+    printf("%d",su);
 }
