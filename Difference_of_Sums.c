@@ -6,9 +6,9 @@ int main()
     for(i=1;i<=n;i++)
     {
         s=s+i*i;
-        q=q+i;
     }
-    p=q*q;
-    printf("%d",p-s);
+    p=n*(n+1)/2;
+    q=p*p;
+    printf("%d",q-s);
     
 }
