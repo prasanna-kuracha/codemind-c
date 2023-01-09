@@ -15,13 +15,13 @@ int main()
     int avg=s/n;
     for(i=0;i<n;i++)
     {
-        if(avg==a[i])
+        if(a[i]==avg)
         {
             c++;
             break;
         }
     }
-    if(c==1)
+    if(c>=1)
     {
         printf("True");
     }
