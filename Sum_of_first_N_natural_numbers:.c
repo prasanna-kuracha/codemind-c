@@ -6,4 +6,3 @@ int main()
     int avg=(n*(n+1))/2;
     printf("%d",avg);
 }
-
