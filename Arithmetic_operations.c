@@ -2,16 +2,18 @@
 int main()
 {
     int a,b;
-    scanf("%d%d
-",&a,&b);
+    scanf("%d%d",&a,&b);
+    int *p1,*p2;
+    p1=&a;
+    p2=&b;
     printf("Sum:%d
-",a+b);
+",*p1+*p2);
     printf("Difference:%d
-",a-b);
+",*p1-*p2);
     printf("Product:%d
-",a*b);
+",*p1**p2);
     printf("Quotient:%d
-",a/b);
+",*p1/(*p2));
     printf("Remainder:%d
-",a%b);
+",*p1%*p2);
 }
