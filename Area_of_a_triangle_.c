@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,area;
+    int a,b;
     scanf("%d%d",&a,&b);
-    area=0.5*a*b;
-    printf("%d",area);
+    int ar=0.5*a*b;
+    printf("%d",ar);
 }
