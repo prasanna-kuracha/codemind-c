@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int c;
-    scanf("%d",&c);
-    if(c>20)
+    int n;
+    scanf("%d",&n);
+    if(n>20)
     {
         printf("HOT");
     }
