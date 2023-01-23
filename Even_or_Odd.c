@@ -3,12 +3,13 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    if(n%2==0)
+    if(n%2==1)
     {
-        printf("Even");
+        printf("Odd");
+
     }
     else
     {
-        printf("Odd");
+        printf("Even");
     }
 }
