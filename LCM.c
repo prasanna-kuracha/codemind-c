@@ -5,7 +5,7 @@ int main()
     scanf("%d%d",&l,&u);
     for(i=1;i<=u;i++)
     {
-        if((i*l)%u==0)
+        if((l*i)%u==0)
         {
             printf("%d",l*i);
             break;
