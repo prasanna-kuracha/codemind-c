@@ -3,11 +3,12 @@ int main()
 {
     int n,i,s=0;
     scanf("%d",&n);
-    i=n*n;
-    while(i>0)
+    int k=n*n;
+    while(k>0)
     {
-        s=s+(i%10);
-        i=i/10;
+        int r=k%10;
+        s=s+r;
+        k=k/10;
     }
     if(s==n)
     {
@@ -17,5 +18,5 @@ int main()
     {
         printf("Not Neon Number");
     }
-
+    
 }
