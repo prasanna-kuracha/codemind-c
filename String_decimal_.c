@@ -8,7 +8,7 @@ int main()
     {
         char s[100];
         scanf("%s",s);
-        int x,i,c=1;
+        int x,c=1,i;
         for(i=0;i<strlen(s);i++)
         {
             x=s[i];
@@ -21,12 +21,11 @@ int main()
                 break;
             }
         }
-        if(c==1) printf("True
+        if(c==0) printf("False
 ");
         else{
-            printf("False
+            printf("True
 ");
         }
-        
     }
 }
