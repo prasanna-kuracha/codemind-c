@@ -7,7 +7,7 @@ int main()
     for(k=1;k<=n;k++)
     {
         char s[100];
-        scanf("%s",s);
+        scanf("%s",&s);
         int x,c=1,i;
         for(i=0;i<strlen(s);i++)
         {
@@ -21,11 +21,9 @@ int main()
                 break;
             }
         }
-        if(c==0) printf("False
+        if(c==1) printf("True
 ");
-        else{
-            printf("True
+        else printf("False
 ");
-        }
     }
 }
