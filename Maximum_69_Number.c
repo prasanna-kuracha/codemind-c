@@ -2,16 +2,15 @@
 #include<string.h>
 int main()
 {
-    char s[100];
-    int i;
-    scanf("%s",&s);
-    for(i=0;i<strlen(s);i++)
+    char n[100],i;
+    scanf("%s",n);
+    for(i=0;i<strlen(n);i++)
     {
-        if(s[i]=='6')
+        if (n[i]=='6')
         {
-            s[i]='9';
+            n[i]='9';
             break;
         }
     }
-    printf("%s",s);
+    printf("%s",n);
 }
