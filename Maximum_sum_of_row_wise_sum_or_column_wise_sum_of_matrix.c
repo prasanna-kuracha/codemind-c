@@ -24,25 +24,23 @@ int main()
             max=s;
         }
     }
-    int se,max1=0;
+    int s1,max1=0;
     for(j=0;j<m;j++)
     {
-        se=0;
+        s1=0;
         for(i=0;i<n;i++)
         {
-            se=se+a[i][j];
+            s1=s1+a[i][j];
         }
-        if(se>max1)
+        if(s1>max1)
         {
-            max1=se;
+            max1=s1;
         }
     }
-    if (max>max1)
-    {
+    if(max>max1){
         printf("%d",max);
     }
     else{
         printf("%d",max1);
     }
-    
 }
