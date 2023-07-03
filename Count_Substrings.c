@@ -8,10 +8,10 @@ int main()
         int h,i,j,c=0;
         scanf("%d",&h);
         char f[100];
-        scanf("%s",&f);
+        scanf("%s",f);
         for(i=0;i<h;i++)
         {
-            if (f[i]=='1')
+            if(f[i]=='1')
             {
                 for(j=i;j<h;j++)
                 {
