@@ -2,12 +2,12 @@
 #include<string.h>
 int main()
 {
-    int i;
     char n[100];
     scanf("%s",n);
-    if(n[0]!='0' && strlen(n)==10)
+    if(strlen(n)==10 && n[0]!='0')
     {
-        printf("Valid");
+        printf("Valid
+");
     }
     else
     {
